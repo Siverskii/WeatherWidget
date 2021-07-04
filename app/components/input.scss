@@ -1,0 +1,16 @@
+.inputContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.baseInput {
+  width: 15rem;
+  font-size: 1rem;
+  border: none;
+  color: #2a2a2a;
+  box-sizing: border-box;
+  border-bottom: 1px solid #a1a1a1;
+  display: block;
+  text-align: center;
+}

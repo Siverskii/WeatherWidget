@@ -1,0 +1,185 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+html {
+  font-size: 16px;
+  height: 100%;
+}
+
+body {
+  user-select: none;
+  background: #f6f8fa;
+  height: 100%;
+}
+a,
+a:link,
+a:visited,
+a:focus,
+a:hover,
+a:active {
+  color: #023d81;
+  color: #134c8d;
+  text-decoration: none;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+#app {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.appContainer {
+  width: 30rem;
+  min-height: calc(100% - 2px);
+  display: flex;
+  justify-content: center;
+  background: #fefefe;
+  box-shadow: #00000026 0px 2px 8px;
+  border: 1px solid #a1a1a1;
+  border-radius: 0.15rem;
+  position: relative;
+  align-content: flex-start;
+}
+
+@font-face {
+  font-family: "fontello";
+  src: url(./fonts/fontello.woff);
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 0.2em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  margin-left: 0.2em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cog:before {
+  content: "\e800";
+  cursor: pointer;
+} /* '' */
+.icon-celcius:before {
+  content: "\e801";
+} /* '' */
+.icon-gauge:before {
+  content: "\e802";
+} /* '' */
+.icon-cancel-5:before {
+  content: "\e803";
+  cursor: pointer;
+} /* '' */
+.icon-spin5:before {
+  content: "\e838";
+} /* '' */
+.icon-menu:before {
+  content: "\f0c9";
+  cursor: pointer;
+} /* '' */
+.icon-direction:before {
+  content: "\f124";
+} /* '' */
+.icon-trash:before {
+  content: "\f1f8";
+  cursor: pointer;
+} /* '' */
